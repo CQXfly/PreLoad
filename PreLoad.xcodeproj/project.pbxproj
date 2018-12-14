@@ -15,6 +15,9 @@
 		98E26B8321C352860042EA61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26B8221C352860042EA61 /* main.m */; };
 		98E26B8D21C352860042EA61 /* PreLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26B8C21C352860042EA61 /* PreLoadTests.m */; };
 		98E26B9821C352870042EA61 /* PreLoadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26B9721C352870042EA61 /* PreLoadUITests.m */; };
+		98E26BA721C352A80042EA61 /* PreLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26BA621C352A80042EA61 /* PreLoad.m */; };
+		98E26BAA21C357160042EA61 /* ModuelA.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26BA921C357160042EA61 /* ModuelA.m */; };
+		98E26BAD21C357240042EA61 /* ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E26BAC21C357240042EA61 /* ModuleB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		98E26B9321C352870042EA61 /* PreLoadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreLoadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98E26B9721C352870042EA61 /* PreLoadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreLoadUITests.m; sourceTree = "<group>"; };
 		98E26B9921C352870042EA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98E26BA521C352A80042EA61 /* PreLoad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreLoad.h; sourceTree = "<group>"; };
+		98E26BA621C352A80042EA61 /* PreLoad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreLoad.m; sourceTree = "<group>"; };
+		98E26BA821C357160042EA61 /* ModuelA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuelA.h; sourceTree = "<group>"; };
+		98E26BA921C357160042EA61 /* ModuelA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuelA.m; sourceTree = "<group>"; };
+		98E26BAB21C357240042EA61 /* ModuleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleB.h; sourceTree = "<group>"; };
+		98E26BAC21C357240042EA61 /* ModuleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModuleB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				98E26B7E21C352860042EA61 /* LaunchScreen.storyboard */,
 				98E26B8121C352860042EA61 /* Info.plist */,
 				98E26B8221C352860042EA61 /* main.m */,
+				98E26BA521C352A80042EA61 /* PreLoad.h */,
+				98E26BA621C352A80042EA61 /* PreLoad.m */,
+				98E26BA821C357160042EA61 /* ModuelA.h */,
+				98E26BA921C357160042EA61 /* ModuelA.m */,
+				98E26BAB21C357240042EA61 /* ModuleB.h */,
+				98E26BAC21C357240042EA61 /* ModuleB.m */,
 			);
 			path = PreLoad;
 			sourceTree = "<group>";
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98E26BAD21C357240042EA61 /* ModuleB.m in Sources */,
 				98E26B7821C352850042EA61 /* ViewController.m in Sources */,
+				98E26BAA21C357160042EA61 /* ModuelA.m in Sources */,
 				98E26B8321C352860042EA61 /* main.m in Sources */,
 				98E26B7521C352840042EA61 /* AppDelegate.m in Sources */,
+				98E26BA721C352A80042EA61 /* PreLoad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
